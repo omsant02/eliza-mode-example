@@ -5,7 +5,7 @@ export async function calculateCreditScore(address: string) {
     try {
         const publicClient = createPublicClient({
             chain: mode,
-            transport: http("https://mainnet.mode.network"),
+            transport: http("https://sepolia.mode.network"),
         });
 
         // Get basic wallet info
